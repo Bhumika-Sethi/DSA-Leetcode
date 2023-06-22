@@ -22,15 +22,11 @@ public:
         while(!q.empty()){
             
             int n = q.size();
-            vector<int> v(n);
+            vector<int> v;
             for(int i = 0; i<n; i++){
                 TreeNode* node = q.front();
                 q.pop();
-                
-                int index = !(leftToRight) ? i : n - i -1;
-                
-                v[index] = node->val;
-                // cout<<index<<" "<<v[index]<<endl;
+                v.push_back(node->val);
                 if(node->left){
                     q.push(node->left);
                 }
@@ -38,6 +34,9 @@ public:
                 if(node->right){
                     q.push(node->right);
                 }
+            }
+            if(leftToRight){
+                reverse(v.begin(),v.end());
             }
             leftToRight = !leftToRight;
             ans.push_back(v);
