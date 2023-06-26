@@ -7,18 +7,23 @@ public:
         for(int i = 0; i<n; i++){
             for(int j = 0; j<m; j++){
                 if(matrix[i][j]==0){
-                    row[i] = 1;
-                    col[j] = 1;
+                    for(int k = 0; k<m; k++){
+                        if(matrix[i][k] != 0){
+                            matrix[i][k] = -1e9;
+                        }
+                    }
+                    for(int l = 0; l<n; l++){
+                        if(matrix[l][j]!= 0){
+                            matrix[l][j] = -1e9;
+                        }
+                    }
                 }
             }
         }
         
         for(int i = 0; i<n; i++){
             for(int j = 0; j<m; j++){
-                if(row[i] == 1){
-                    matrix[i][j] = 0;
-                }
-                if(col[j] == 1){
+                if(matrix[i][j] == -1e9){
                     matrix[i][j] = 0;
                 }
             }
