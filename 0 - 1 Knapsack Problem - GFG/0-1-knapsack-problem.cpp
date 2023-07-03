@@ -24,18 +24,19 @@ class Solution
     }
     int knapSack(int W, int wt[], int val[], int n) 
     { 
-        vector<vector<int>> dp(n+1,vector<int>(W+1,0));
+        vector<int> curr(W+1,0), next(W+1,0);
         for(int i = n-1; i>=0; i--){
             for(int j = 0; j<=W; j++){
-                int notTake = dp[i+1][j];
+                int notTake = next[j];
                 int take = 0;
                 if(wt[i]<=j){
-                    take = val[i] + dp[i+1][j-wt[i]];
+                    take = val[i] + next[j-wt[i]];
                 }
-                dp[i][j] = max(take,notTake);
+                curr[j] = max(take,notTake);
             }
+            next = curr;
         }
-        return dp[0][W];
+        return curr[W];
        // Your code here
     }
 };
