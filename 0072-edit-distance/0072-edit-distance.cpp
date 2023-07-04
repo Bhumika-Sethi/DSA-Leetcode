@@ -24,27 +24,27 @@ public:
     int minDistance(string word1, string word2) {
         int n = word1.size();
         int m = word2.size();
-        vector<vector<int>> dp(n+1,vector<int>(m+1,-1));
+        vector<vector<int>> dp(n+1,vector<int>(m+1,0));
         
-//         for(int j = 0; j<m; j++){
-//             dp[n][j] = m - j;
-//         }
+        for(int j = 0; j<m; j++){
+            dp[n][j] = m - j;
+        }
         
-//         for(int i = 0; i<n; i++){
-//             dp[i][m] = n - i;
-//         }
+        for(int i = 0; i<n; i++){
+            dp[i][m] = n - i;
+        }
         
-//         for(int i = n-1; i>=0; i--){
-//             for(int j = m-1; j>=0; j--){
-//                    if(str1[i]==str2[j]){
-//                         dp[i][j] = 0 + rec(i+1,j+1,str1,str2,dp);
-//                     }
-//                     else{
-//                         dp[i][j] = 1 + min(rec(i+1,j+1,str1,str2,dp),min(rec(i+1,j,str1,str2,dp),rec(i,j+1,str1,str2,dp)));
-//                     }
-//             }
-//         }
+        for(int i = n-1; i>=0; i--){
+            for(int j = m-1; j>=0; j--){
+                   if(word1[i]==word2[j]){
+                        dp[i][j] = 0 + dp[i+1][j+1];
+                    }
+                    else{
+                        dp[i][j] = 1 + min(dp[i+1][j+1],min(dp[i+1][j],dp[i][j+1]));
+                    }
+            }
+        }
         
-        return rec(0,0,word1,word2,dp);
+        return dp[0][0];
     }
 };
