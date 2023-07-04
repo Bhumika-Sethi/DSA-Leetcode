@@ -10,19 +10,41 @@ class Solution {
         if(dp[i][j]!=-1){
             return dp[i][j];
         }
-        
+        int match = 1e9;
+        int notMatch = 1e9;
         if(str1[i]==str2[j]){
-            return dp[i][j] = 0 + rec(i+1,j+1,str1,str2,dp);
+            match = 0 + rec(i+1,j+1,str1,str2,dp);
         }
         else{
-            return dp[i][j] = 1 + min(rec(i+1,j+1,str1,str2,dp),min(rec(i+1,j,str1,str2,dp),rec(i,j+1,str1,str2,dp)));
+            notMatch = 1 + min(rec(i+1,j+1,str1,str2,dp),min(rec(i+1,j,str1,str2,dp),rec(i,j+1,str1,str2,dp)));
         }
+        return dp[i][j] = min(match,notMatch);
     }
 public:
     int minDistance(string word1, string word2) {
         int n = word1.size();
         int m = word2.size();
-        vector<vector<int>> dp(n,vector<int>(m,-1));
+        vector<vector<int>> dp(n+1,vector<int>(m+1,-1));
+        
+//         for(int j = 0; j<m; j++){
+//             dp[n][j] = m - j;
+//         }
+        
+//         for(int i = 0; i<n; i++){
+//             dp[i][m] = n - i;
+//         }
+        
+//         for(int i = n-1; i>=0; i--){
+//             for(int j = m-1; j>=0; j--){
+//                    if(str1[i]==str2[j]){
+//                         dp[i][j] = 0 + rec(i+1,j+1,str1,str2,dp);
+//                     }
+//                     else{
+//                         dp[i][j] = 1 + min(rec(i+1,j+1,str1,str2,dp),min(rec(i+1,j,str1,str2,dp),rec(i,j+1,str1,str2,dp)));
+//                     }
+//             }
+//         }
+        
         return rec(0,0,word1,word2,dp);
     }
 };
