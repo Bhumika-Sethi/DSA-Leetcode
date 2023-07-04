@@ -28,7 +28,27 @@ class Solution {
             return false;
         }
         int target = sum/2;
-        vector<vector<int>> dp(n,vector<int>(target+1,-1));
-        return targetSum(0,target,nums,dp);
+        vector<vector<bool>> dp(n+1,vector<bool>(target+1,0));
+        
+        for(int i = 0; i<=n; i++){
+            dp[i][0] = true;
+        }
+        
+        for(int j = 1; j<=target; j++){
+            dp[n][j] = false;
+        }
+        
+        
+        for(int i = n-1; i>=0; i--){
+            for(int j = 1; j<=target; j++){
+                int notTake = dp[i+1][j];
+                int take = false;
+                if(j-nums[i]>=0){
+                    take = dp[i+1][j-nums[i]];
+                }
+                dp[i][j] = take | notTake;
+            }
+        }
+        return dp[0][target];
     }
 };
