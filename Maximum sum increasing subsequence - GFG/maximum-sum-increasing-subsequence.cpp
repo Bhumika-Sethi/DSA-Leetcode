@@ -22,18 +22,19 @@ class Solution{
 	public:
 	int maxSumIS(int arr[], int n)  
 	{  
-	    vector<vector<int>> dp(n+1,vector<int>(n+1,0));
+	    vector<int> curr(n+1,0), next(n+1,0);
 	    for(int i=n-1; i>=0; i--){
 	        for(int prev = i-1; prev>=-1; prev--){
-	            int notTake = dp[i+1][prev+1];
+	            int notTake = next[prev+1];
                 int take = -1e9;
                 if(prev==-1 || arr[i]>arr[prev]){
-                    take =  arr[i] + dp[i+1][i+1];
+                    take =  arr[i] + next[i+1];
                 }
-                dp[i][prev+1] = max(take,notTake);
+                curr[prev+1] = max(take,notTake);
 	        }
+	        next = curr;
 	    }
-	    return dp[0][0];
+	    return curr[0];
 	    // Your code goes here
 	}  
 };
