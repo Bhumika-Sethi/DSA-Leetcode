@@ -36,12 +36,15 @@ public:
         
         for(int i = n-1; i>=0; i--){
             for(int j = m-1; j>=0; j--){
+                int match = 1e9;
+                int notMatch = 1e9;
                    if(word1[i]==word2[j]){
-                        dp[i][j] = 0 + dp[i+1][j+1];
+                         match = 0 + dp[i+1][j+1];
                     }
                     else{
-                        dp[i][j] = 1 + min(dp[i+1][j+1],min(dp[i+1][j],dp[i][j+1]));
+                         notMatch = 1 + min(dp[i+1][j+1],min(dp[i+1][j],dp[i][j+1]));
                     }
+                dp[i][j] = min(match,notMatch);
             }
         }
         
