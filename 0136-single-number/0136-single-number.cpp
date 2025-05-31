@@ -1,14 +1,19 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-    int singleNum = 0;
-    //we'll be doing XOR of all the numbers
-    //so the only number tha would be remaining would be single number
-    //XOR -> number^number -> 0
-    //XOR -> 0^number -> number
-      for(int i = 0; i<nums.size(); i++){
-        singleNum^=nums[i];
-      }  
-      return singleNum;
+    //O(N^2) - Bruteforce solution
+        for(int i = 0; i<nums.size(); i++){
+            int ele = nums[i];
+            int cnt = 0;
+            for(int j = 0; j<nums.size(); j++){
+                if(nums[j]==ele){
+                    cnt++;
+                }
+            }
+            if(cnt==1){
+                return ele;
+            }
+        }
+        return -1;
     }
 };
