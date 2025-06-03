@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0001-two-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0001-two-sum) |
 | [0053-maximum-subarray](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0053-maximum-subarray) |
+| [0073-set-matrix-zeroes](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0136-single-number) |
@@ -23,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0001-two-sum) |
+| [0073-set-matrix-zeroes](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0268-missing-number) |
 ## Math
@@ -57,4 +59,8 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0053-maximum-subarray](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Matrix
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
