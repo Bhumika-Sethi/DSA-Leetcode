@@ -1,105 +1,42 @@
 class Solution {
-    
 public:
-
-    
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
+        // Better approach - TC - O(N^3)
+        //                      - SC - O(No of quadruplet*4) + O(No of quadruplet*4)
+        // Use set to remove one loop -> store elements between j and k in the set
+        // In the j loop create set 
+        // At the end-:last line of k loop -> add k into set
+        // return an array of all the unique quadruplets -use set to store unique quad -> sort each quad to make it unique
+        // 4th variable nums[l] = target-(nums[i]+nums[j]+nums[k])
+        set<vector<int>> nonDuplicateQuadSet;
         int n = nums.size();
-        set<vector<int>> ans;
-        sort(nums.begin(),nums.end());
         for(int i = 0; i<n; i++){
             for(int j = i+1; j<n; j++){
-                int k = j+1;
-                int l = n-1;
-                while(k<l){
-                    long long sum = 0;
-                    sum += (long long)(nums[i]);
-                    sum += (long long)(nums[j]); 
-                    sum += (long long)(nums[k]); 
-                    sum += (long long)(nums[l]); 
-                    
-                    if(sum==target){
-                        vector<int> v(4);
-                        v[0] = nums[i];
-                        v[1] = nums[j];
-                        v[2] = nums[k];
-                        v[3] = nums[l];
-                        ans.insert(v);
-                        k++;
-                        l--;
+                // long long to maintain overflow as in set st we are storing 4th element which can overflow
+                set<long long> st;
+                for(int k = j+1; k<n; k++){
+                    // To prevent overflow, intialise fourth variable as long long ans subtract one by one
+                    long long fourthNum = target;
+                    fourthNum -= nums[i];
+                    fourthNum -= nums[j];
+                    fourthNum -= nums[k];
+                    // Ensure st is not empty and has fourthNum stored in it
+                    if(!st.empty() && st.find(fourthNum)!=st.end()){
+                        // If yes then store the sorted quaduplet in a set to maintain uniqueness
+                        vector<int> temp;
+                        temp.push_back(nums[i]);
+                        temp.push_back(nums[j]);
+                        temp.push_back(nums[k]);
+                        temp.push_back(fourthNum);
+                        // Sort and then insert in set to maintain uniqueness
+                        sort(temp.begin(),temp.end());
+                        nonDuplicateQuadSet.insert(temp);
                     }
-                    else if(sum>target){
-                        l--;
-                    }
-                    else{
-                        k++;
-                    }
+                    st.insert(nums[k]);
                 }
             }
         }
-        vector<vector<int>> res(ans.begin(),ans.end());
-        return res;
+        vector<vector<int>> ans(nonDuplicateQuadSet.begin(),nonDuplicateQuadSet.end());
+        return ans;
     }
-
-    
-//      Time Limit Exceeded
-//     vector<vector<int>> fourSum(vector<int>& nums, int target) {
-//          int n = nums.size();
-//         set<vector<int>> ans;
-//         for(int i = 0; i<n; i++){
-//             for(int j = i+1; j<n; j++){
-//                 map<int,int> mp;
-//                 for(int k = j+1; k<n; k++){
-//                     long long sum = 0;
-//                     sum += (long long)(nums[i]);
-//                     sum += (long long)(nums[j]); 
-//                     sum += (long long)(nums[k]); 
-                     
-//                     if(mp[target-sum]){
-//                         vector<int> v(4);
-//                         v[0] = nums[i];
-//                         v[1] = nums[j];
-//                         v[2] = nums[k];
-//                         v[3] = target-sum;
-//                         sort(v.begin(),v.end());
-//                         ans.insert(v);
-//                     }
-//                     mp[nums[k]]++;
-//                 }
-//             }
-//         }
-//         vector<vector<int>> res(ans.begin(),ans.end());
-//         return res;
-//     }
-    
-//      Time Limit Exceeded
-//     vector<vector<int>> fourSum(vector<int>& nums, int target) {
-//         int n = nums.size();
-//         set<vector<int>> ans;
-//         for(int i = 0; i<n; i++){
-//             for(int j = i+1; j<n; j++){
-//                 for(int k = j+1; k<n; k++){
-//                     for(int l = k+1; l<n; l++){
-//                         long long sum = 0;
-//                         sum += (long long)(nums[i]);
-//                         sum += (long long)(nums[j]); 
-//                         sum += (long long)(nums[k]); 
-//                         sum += (long long)(nums[l]); 
-
-//                         if(sum==target){
-//                             vector<int> v(4);
-//                             v[0] = nums[i];
-//                             v[1] = nums[j];
-//                             v[2] = nums[k];
-//                             v[3] = nums[l];
-//                             sort(v.begin(),v.end());
-//                             ans.insert(v);
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//         vector<vector<int>> res(ans.begin(),ans.end());
-//         return res;
-//     }
 };
