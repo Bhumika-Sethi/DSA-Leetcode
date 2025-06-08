@@ -1,42 +1,62 @@
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
-        // Better approach - TC - O(N^3)
-        //                      - SC - O(No of quadruplet*4) + O(No of quadruplet*4)
-        // Use set to remove one loop -> store elements between j and k in the set
-        // In the j loop create set 
-        // At the end-:last line of k loop -> add k into set
-        // return an array of all the unique quadruplets -use set to store unique quad -> sort each quad to make it unique
-        // 4th variable nums[l] = target-(nums[i]+nums[j]+nums[k])
-        set<vector<int>> nonDuplicateQuadSet;
+        // Optimal approach - TC - O(N^3)
+        //                  - SC - O(N^2) or O(No of quaduplet*4) - to return answer
+        vector<vector<int>> ans;
+        sort(nums.begin(),nums.end());
         int n = nums.size();
         for(int i = 0; i<n; i++){
+            // Written this to avoid i duplication
+            // Example : [2,2,2,2,2], target = 8
+            // Output : [[2,2,2,2],[2,2,2,2]] -> if we don't write while for i as well
+            // Expected Output : [[2,2,2,2]]
+            while(i!=0 && i<n && nums[i]==nums[i-1]){
+                    i++;
+                }
             for(int j = i+1; j<n; j++){
-                // long long to maintain overflow as in set st we are storing 4th element which can overflow
-                set<long long> st;
-                for(int k = j+1; k<n; k++){
-                    // To prevent overflow, intialise fourth variable as long long ans subtract one by one
-                    long long fourthNum = target;
-                    fourthNum -= nums[i];
-                    fourthNum -= nums[j];
-                    fourthNum -= nums[k];
-                    // Ensure st is not empty and has fourthNum stored in it
-                    if(!st.empty() && st.find(fourthNum)!=st.end()){
-                        // If yes then store the sorted quaduplet in a set to maintain uniqueness
+                // k and l will be following 2 pointer approach
+                // this we are doing to avoid duplication
+                // and we have inserted j!= i+1 condition as -1 index is inaccessible, similarly for j<n as j==n is inaccessible
+                while(j!=i+1 && j<n && nums[j]==nums[j-1]){
+                    j++;
+                }
+                int k = j+1;
+                int l = n-1;
+                // To avoid taking same element we won't do k<=l
+                while(k<l){
+                    long long achievedSum = nums[i];
+                    achievedSum += nums[j];
+                    achievedSum += nums[k];
+                    achievedSum += nums[l];
+
+                    if(achievedSum<target){
+                        k++;
+                    }
+                    else if(achievedSum>target){
+                        l--;
+                    }
+                    else{
                         vector<int> temp;
                         temp.push_back(nums[i]);
                         temp.push_back(nums[j]);
                         temp.push_back(nums[k]);
-                        temp.push_back(fourthNum);
-                        // Sort and then insert in set to maintain uniqueness
-                        sort(temp.begin(),temp.end());
-                        nonDuplicateQuadSet.insert(temp);
+                        temp.push_back(nums[l]);
+                        // already in sorted order, insert in ans
+                        ans.push_back(temp);
+                        k++;
+                        l--;
+                        // To avoid duplication as sum of 2 same elements will be same only
+                        while(k<l && nums[k]==nums[k-1]){
+                            k++;
+                        }
+                        while(k<l && nums[l]==nums[l+1]){
+                            l--;
+                        }
                     }
-                    st.insert(nums[k]);
                 }
             }
         }
-        vector<vector<int>> ans(nonDuplicateQuadSet.begin(),nonDuplicateQuadSet.end());
         return ans;
     }
 };
