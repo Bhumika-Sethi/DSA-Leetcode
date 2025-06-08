@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0015-3sum) |
 | [0048-rotate-image](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0054-spiral-matrix) |
@@ -46,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0229-majority-element-ii) |
@@ -53,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0075-sort-colors) |
 ## Divide and Conquer
 |  |
