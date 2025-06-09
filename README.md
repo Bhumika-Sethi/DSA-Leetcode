@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0268-missing-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0268-missing-number) |
 | [0485-max-consecutive-ones](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [3227-find-missing-and-repeated-values](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -38,11 +39,13 @@ Collection of LeetCode questions to ace the coding interview!
 | [0229-majority-element-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0268-missing-number) |
 | [0560-subarray-sum-equals-k](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [3227-find-missing-and-repeated-values](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Math
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0048-rotate-image) |
 | [0268-missing-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0268-missing-number) |
+| [3227-find-missing-and-repeated-values](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Binary Search
 |  |
 | ------- |
@@ -87,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0048-rotate-image](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [3227-find-missing-and-repeated-values](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Simulation
 |  |
 | ------- |
