@@ -10,24 +10,45 @@
  */
 class Solution {
 public:
-    bool isPalindrome(ListNode* head) {
-        vector<int> arr;
+    ListNode* reverse(ListNode* head){
         ListNode* temp = head;
-        if(temp==NULL){
-            return true;
-        }
+        ListNode* prev = NULL;
         while(temp!=NULL){
-            arr.push_back(temp->val);
+            ListNode* front = temp->next;
+            temp->next = prev;
+            prev = temp;
+            temp = front; 
+        }
+        return prev;
+    }
+    bool isPalindrome(ListNode* head) {
+        // Simply just reverse second half of the linkedlist
+        // Check if the elements are equal
+
+        // Find length of linked List
+        int cnt = 0;
+        ListNode* temp = head;
+        while(temp!=NULL){
+            cnt++;
             temp = temp->next;
         }
+        int n = cnt;
         int i = 0;
-        int j = arr.size()-1;
-        while(i<j){
-            if(arr[i]!=arr[j]){
+        int midIndex = cnt/2;
+        temp = head;
+
+        while(temp!=NULL && i<midIndex){
+            i++;
+            temp = temp->next;
+        }
+        ListNode* newHead = reverse(temp);
+
+        while(head!=NULL && newHead!=NULL){
+            if(head->val!=newHead->val){
                 return false;
             }
-            i++;
-            j--;
+            head = head->next;
+            newHead = newHead->next;
         }
         return true;
     }
