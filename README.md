@@ -64,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0048-rotate-image](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0050-powx-n) |
 | [0268-missing-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0268-missing-number) |
+| [2050-count-good-numbers](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/2050-count-good-numbers) |
 | [3227-find-missing-and-repeated-values](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Binary Search
 |  |
@@ -181,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0050-powx-n](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0234-palindrome-linked-list) |
+| [2050-count-good-numbers](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/2050-count-good-numbers) |
 ## Stack
 |  |
 | ------- |
