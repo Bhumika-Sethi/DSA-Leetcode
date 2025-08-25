@@ -12,47 +12,36 @@
 class Solution {
 public:
     int widthOfBinaryTree(TreeNode* root) {
-        // node, index of that node at that particular level         
-        queue<pair<TreeNode*,long>> q;
-        
+        queue<pair<TreeNode*, long>> q;
+        if(root==NULL){
+            return 0;
+        }
+        long maxi = 0;
         q.push({root,0});
-        
-        long width = 0;
-        
         while(!q.empty()){
-//             Find the size of the queue - indicates the no of nodes in that particular level
-//             And iterate for that level in one go.
-            long size = q.size();
-            long mini = q.front().second;
+            int size = q.size();
+            long min = q.front().second;
             long first,last;
-            
-            
+
             for(int i = 0; i<size; i++){
-                auto it = q.front();
+                TreeNode* node = q.front().first;
+                long index = q.front().second-min;
                 q.pop();
-                
-                TreeNode* node = it.first;
-                long indexWithoutModification = it.second;
-                long newIndex = indexWithoutModification - mini;
-                
                 if(i==0){
-                    first = newIndex;
+                    first = index;
                 }
                 if(i==size-1){
-                    last = newIndex;
+                    last = index;
                 }
-                
                 if(node->left){
-                    q.push({node->left,2*newIndex+1});
+                    q.push({node->left,2*index+1});
                 }
-                
                 if(node->right){
-                    q.push({node->right,2*newIndex+2});
+                    q.push({node->right,2*index+2});
                 }
             }
-            width = max(width,last-first+1);
+            maxi = max(maxi,last-first+1);
         }
-        
-        return width;
+        return (int)maxi;
     }
 };
