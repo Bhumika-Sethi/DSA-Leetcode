@@ -201,6 +201,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0098-validate-binary-search-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
@@ -223,6 +224,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0098-validate-binary-search-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -240,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0098-validate-binary-search-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
@@ -287,6 +290,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Binary Search Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
