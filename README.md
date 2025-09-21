@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0002-add-two-numbers](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0050-powx-n) |
+| [0070-climbing-stairs](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0268-missing-number) |
 | [2050-count-good-numbers](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/2050-count-good-numbers) |
 | [3227-find-missing-and-repeated-values](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/3227-find-missing-and-repeated-values) |
@@ -129,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -305,4 +307,8 @@ Collection of LeetCode questions to ace the coding interview!
 | [0450-delete-node-in-a-bst](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
