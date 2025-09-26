@@ -129,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0118-pascals-triangle) |
@@ -298,6 +299,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0022-generate-parentheses) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -311,4 +313,8 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0070-climbing-stairs) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
