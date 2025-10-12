@@ -1,35 +1,32 @@
 class Solution {
 public:
-    
-    void sum2(int ind, int target, int n, vector<int>& nums, vector<int>& v, vector<vector<int>>& ans){
-        
-        if(target==0){
-            ans.push_back(v);
+    void combinationSum(int i, int sum, vector<int>& ds, vector<vector<int>>& ans, int n, vector<int>& candidates, int target){
+        //This was missed causing issue previously. whenever target == sum, at that time only push the answer, no need to deep dive into all elements
+        if(target==sum){
+            ans.push_back(ds);
             return;
         }
-        
-       for(int i = ind; i<n; i++){
-           if(i>ind && nums[i]==nums[i-1]){
-                   continue;
-             }
-           if(target-nums[i]>=0){
-               target -= nums[i];
-               v.push_back(nums[i]);
-               sum2(i+1,target,n,nums,v,ans);
-               target += nums[i];
-               v.pop_back();
-           }
-           
-       }
+        if(sum>target){
+            return;
+        }
+        if(i==n){
+            return;
+        }
+        for(int ind = i; ind<n; ind++){
+            if(ind!=i && candidates[ind-1]==candidates[ind]){
+                continue;
+            }
+            ds.push_back(candidates[ind]);
+            combinationSum(ind+1,sum+candidates[ind],ds,ans,n,candidates,target);
+            ds.pop_back();
+        }
     }
-    
-    
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
+        vector<int> ds;
         vector<vector<int>> ans;
-        vector<int> v;
+        int sum = 0;
         sort(candidates.begin(),candidates.end());
-        int n = candidates.size();
-        sum2(0,target,n,candidates,v,ans);
+        combinationSum(0,0,ds,ans,candidates.size(),candidates,target);
         return ans;
     }
 };
