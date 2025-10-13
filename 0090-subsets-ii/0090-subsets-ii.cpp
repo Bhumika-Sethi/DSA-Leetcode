@@ -1,28 +1,22 @@
 class Solution {
-    
-    void subsetsWithoutDup(int ind, int n, vector<int>& nums, vector<int>& v, vector<vector<int>>& ans){
-        ans.push_back(v);
-        
-        for(int i = ind; i<n; i++){
-            if(i>ind && nums[i-1]==nums[i]){
+public:
+    void subsetsWithoutDup(int i, vector<int>& ds, vector<vector<int>>& ans, int n, vector<int>& nums){
+        ans.push_back(ds);
+        for(int ind = i; ind<n; ind++){
+            if(ind!=i && nums[ind]==nums[ind-1]){
                 continue;
             }
-            v.push_back(nums[i]);
-            subsetsWithoutDup(i+1,n,nums,v,ans);
-            v.pop_back();
+            ds.push_back(nums[ind]);
+            subsetsWithoutDup(ind+1,ds,ans,n,nums);
+            ds.pop_back();
         }
     }
-    
-    
-public:
+
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
         vector<vector<int>> ans;
-        vector<int> v;
-        int n = nums.size();
+        vector<int> ds;
         sort(nums.begin(),nums.end());
-        
-        subsetsWithoutDup(0,n,nums,v,ans);
-        
+        subsetsWithoutDup(0,ds,ans,nums.size(),nums);
         return ans;
     }
 };
