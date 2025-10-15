@@ -58,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0001-two-sum) |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0073-set-matrix-zeroes](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0141-linked-list-cycle](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0141-linked-list-cycle) |
@@ -308,6 +309,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0022-generate-parentheses) |
@@ -337,5 +339,6 @@ Collection of LeetCode questions to ace the coding interview!
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
