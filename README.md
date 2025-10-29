@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0560-subarray-sum-equals-k](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0792-binary-search](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0907-koko-eating-bananas) |
+| [1036-rotting-oranges](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -155,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0048-rotate-image](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [1036-rotting-oranges](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1036-rotting-oranges) |
 | [3227-find-missing-and-repeated-values](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Simulation
 |  |
@@ -300,6 +302,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0547-number-of-provinces](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1036-rotting-oranges](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1036-rotting-oranges) |
 ## Design
 |  |
 | ------- |
