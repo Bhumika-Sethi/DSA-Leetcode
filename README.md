@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0485-max-consecutive-ones](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0542-01-matrix](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0733-flood-fill](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0733-flood-fill) |
 | [0792-binary-search](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0792-binary-search) |
@@ -154,12 +155,14 @@ Collection of LeetCode questions to ace the coding interview!
 | [0124-binary-tree-maximum-path-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0542-01-matrix](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0542-01-matrix) |
 ## Matrix
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0542-01-matrix](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1036-rotting-oranges) |
 | [3227-find-missing-and-repeated-values](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/3227-find-missing-and-repeated-values) |
@@ -305,6 +308,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0542-01-matrix](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0733-flood-fill) |
