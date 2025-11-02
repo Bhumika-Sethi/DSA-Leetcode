@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [1036-rotting-oranges](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1073-number-of-enclaves](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1073-number-of-enclaves) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -167,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0542-01-matrix](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1073-number-of-enclaves) |
 | [3227-find-missing-and-repeated-values](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Simulation
 |  |
@@ -278,6 +280,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0662-maximum-width-of-binary-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0733-flood-fill) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1073-number-of-enclaves](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1073-number-of-enclaves) |
 ## Binary Tree
 |  |
 | ------- |
@@ -318,6 +321,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0733-flood-fill](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0733-flood-fill) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1073-number-of-enclaves) |
 ## Design
 |  |
 | ------- |
@@ -373,6 +377,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0130-surrounded-regions](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0547-number-of-provinces) |
+| [1073-number-of-enclaves](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1073-number-of-enclaves) |
 ## Graph
 |  |
 | ------- |
