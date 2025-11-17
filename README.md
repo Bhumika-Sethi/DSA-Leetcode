@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1646-kth-missing-positive-number) |
+| [1753-path-with-minimum-effort](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [3227-find-missing-and-repeated-values](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Bit Manipulation
 |  |
@@ -111,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1646-kth-missing-positive-number) |
+| [1753-path-with-minimum-effort](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1753-path-with-minimum-effort) |
 ## Sorting
 |  |
 | ------- |
@@ -172,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [1036-rotting-oranges](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [3227-find-missing-and-repeated-values](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Simulation
 |  |
@@ -288,6 +291,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0820-find-eventual-safe-states](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1073-number-of-enclaves) |
+| [1753-path-with-minimum-effort](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1753-path-with-minimum-effort) |
 ## Binary Tree
 |  |
 | ------- |
@@ -335,6 +339,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [1036-rotting-oranges](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1753-path-with-minimum-effort) |
 ## Design
 |  |
 | ------- |
@@ -394,6 +399,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0547-number-of-provinces](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1073-number-of-enclaves) |
+| [1753-path-with-minimum-effort](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1753-path-with-minimum-effort) |
 ## Graph
 |  |
 | ------- |
@@ -408,4 +414,8 @@ Collection of LeetCode questions to ace the coding interview!
 | [0207-course-schedule](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0210-course-schedule-ii) |
 | [0820-find-eventual-safe-states](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0820-find-eventual-safe-states) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1753-path-with-minimum-effort](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1753-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
