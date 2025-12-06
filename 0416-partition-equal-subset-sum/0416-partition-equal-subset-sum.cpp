@@ -28,7 +28,24 @@ public:
             return false;
         }
         int target = sum/2;
-        vector<vector<int>> dp(n,vector<int>(target+1,-1));
-        return subsetSumEqual(n-1,sum/2,nums,dp);
+        vector<vector<int>> dp(n+1,vector<int>(target+1,0));
+        for(int i = 0; i<=n; i++){
+            dp[i][0] = 1;
+        }
+
+        for(int ind = 1; ind<=n; ind++){
+            dp[ind][0] = 1;
+            for(int sum = 1; sum<=target; sum++){
+                int pick = 0;
+                int notPick = 0;
+                if(sum-nums[ind-1]>=0){
+                    pick = dp[ind-1][sum-nums[ind-1]];
+                }
+                notPick = dp[ind-1][sum];
+                dp[ind][sum] = pick|notPick;
+            }
+        }
+
+        return dp[n][target];
     }
 };
