@@ -41,7 +41,34 @@ public:
         if((target+sum)<0 || (target+sum)%2==1){
             return 0;
         }
-        vector<vector<int>> dp(n,vector<int>(s1+1,-1));
-        return countSubsetSum(n-1,s1,nums,dp);
+        vector<vector<int>> dp(n,vector<int>(s1+1,0));
+
+        for(int sum = 0; sum<=s1; sum++){
+            if(sum==0 && nums[0]==0){
+                dp[0][sum] = 2;
+            }
+            else if(sum==0){
+                dp[0][sum] = 1;
+            }
+            else if(sum==nums[0]){
+                dp[0][sum] = 1;
+            }
+            else{
+                dp[0][sum] = 0;
+            }
+        }
+
+        for(int ind=  1; ind<n; ind++){
+            for(int sum = 0; sum<=s1; sum++){
+                int pick = 0;
+                if(sum-nums[ind]>=0){
+                    pick = dp[ind-1][sum-nums[ind]];
+                }
+                int notPick = dp[ind-1][sum];
+                dp[ind][sum] = pick + notPick;
+            }
+        }
+
+        return dp[n-1][s1];
     }
 };
