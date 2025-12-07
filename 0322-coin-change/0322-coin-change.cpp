@@ -19,8 +19,22 @@ public:
     }
     int coinChange(vector<int>& coins, int amount) {
         int n = coins.size();
-        vector<vector<int>> dp(n,vector<int>(amount+1,-1));
-        int ans = minCoins(n-1,amount,coins,dp);
+        vector<vector<int>> dp(n+1,vector<int>(amount+1,0));
+        for(int sum = 0; sum<=amount; sum++){
+            dp[0][sum] = 100000000;
+        }
+        for(int ind = 1; ind<=n; ind++){
+            dp[ind][0] = 0;
+            for(int sum = 1; sum<=amount; sum++){
+                int pick = 100000000;
+                if(sum-coins[ind-1]>=0){
+                    pick = 1 + dp[ind][sum-coins[ind-1]];
+                }
+                int notPick = 0 + dp[ind-1][sum];
+                dp[ind][sum] = min(pick,notPick);
+            }
+        }
+        int ans = dp[n][amount];
         if(ans>=100000000){
             return -1;
         }
