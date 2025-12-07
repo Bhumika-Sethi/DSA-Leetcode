@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0268-missing-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0268-missing-number) |
 | [0410-split-array-largest-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0455-assign-cookies](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0169-majority-element](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0268-missing-number) |
+| [0455-assign-cookies](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0455-assign-cookies) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Two Pointers
 |  |
@@ -143,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0142-linked-list-cycle-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0234-palindrome-linked-list) |
+| [0455-assign-cookies](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0455-assign-cookies) |
 | [0908-middle-of-the-linked-list](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Divide and Conquer
@@ -223,6 +226,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0455-assign-cookies](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0455-assign-cookies) |
 ## Linked List
 |  |
 | ------- |
