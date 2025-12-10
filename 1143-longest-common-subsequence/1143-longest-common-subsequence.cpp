@@ -1,36 +1,34 @@
 class Solution {
-    int lcs(int i, int j, string& s1, string& s2, vector<vector<int>>& dp){
-        if(i==s1.size() || j==s2.size()){
+public:
+    int lcs(int ind1, int ind2, string& text1, string& text2,vector<vector<int>>& dp){
+        if(ind1<0 || ind2<0){
             return 0;
         }
-        if(dp[i][j]!=-1){
-            return dp[i][j];
+        if(dp[ind1][ind2]!=-1){
+            return dp[ind1][ind2];
         }
-        int take = 0;
-        if(s1[i]==s2[j]){
-            take = 1 + lcs(i+1,j+1,s1,s2,dp);
+        if(text1[ind1]==text2[ind2]){
+            return dp[ind1][ind2] = 1 + lcs(ind1-1, ind2-1, text1, text2,dp);
         }
-        int notTake = max(lcs(i,j+1,s1,s2,dp),lcs(i+1,j,s1,s2,dp));
-        return dp[i][j] = max(take,notTake);
+        else{
+            return dp[ind1][ind2] = max(lcs(ind1,ind2-1,text1,text2,dp),lcs(ind1-1,ind2,text1,text2,dp));
+        }
     }
-public:
     int longestCommonSubsequence(string text1, string text2) {
         int n = text1.size();
         int m = text2.size();
-        vector<int> curr(m+1,0), next(m+1,0);
-        
-        
-        for(int i = n-1; i>=0; i--){
-            for(int j = m-1; j>=0; j--){
-                int take = 0;
-                if(text1[i]==text2[j]){
-                    take = 1 + next[j+1];
+        vector<vector<int>> dp(n+1,vector<int>(m+1,0));
+        for(int ind1 = 1; ind1<=n; ind1++){
+            dp[ind1][0] = 0;
+            for(int ind2 = 1; ind2<=m; ind2++){
+                if(text1[ind1-1]==text2[ind2-1]){
+                    dp[ind1][ind2] = 1 + dp[ind1-1][ind2-1];
+                 }
+                else{
+                    dp[ind1][ind2] = max(dp[ind1][ind2-1],dp[ind1-1][ind2]);
                 }
-                int notTake = max(next[j],curr[j+1]);
-                curr[j] = max(take,notTake);
             }
-            next = curr;
         }
-        return curr[0];
+        return dp[n][m];
     }
 };
