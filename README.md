@@ -184,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0542-01-matrix](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0542-01-matrix) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0931-minimum-falling-path-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0931-minimum-falling-path-sum) |
+| [1143-longest-common-subsequence](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1143-longest-common-subsequence) |
 ## Matrix
 |  |
 | ------- |
@@ -391,6 +392,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0022-generate-parentheses](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0022-generate-parentheses) |
 | [0126-word-ladder-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0126-word-ladder-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [1143-longest-common-subsequence](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1143-longest-common-subsequence) |
 ## Binary Search Tree
 |  |
 | ------- |
