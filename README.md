@@ -183,6 +183,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0516-longest-palindromic-subsequence](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0542-01-matrix) |
+| [0583-delete-operation-for-two-strings](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0931-minimum-falling-path-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [1143-longest-common-subsequence](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1143-longest-common-subsequence) |
@@ -395,6 +396,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0126-word-ladder-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0126-word-ladder-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0516-longest-palindromic-subsequence](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0516-longest-palindromic-subsequence) |
+| [0583-delete-operation-for-two-strings](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [1143-longest-common-subsequence](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 ## Binary Search Tree
