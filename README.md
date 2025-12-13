@@ -180,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0410-split-array-largest-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0494-target-sum) |
+| [0516-longest-palindromic-subsequence](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0542-01-matrix) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -392,6 +393,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0022-generate-parentheses](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0022-generate-parentheses) |
 | [0126-word-ladder-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0126-word-ladder-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0516-longest-palindromic-subsequence](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [1143-longest-common-subsequence](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1143-longest-common-subsequence) |
 ## Binary Search Tree
 |  |
