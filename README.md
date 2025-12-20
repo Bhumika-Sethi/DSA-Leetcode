@@ -166,6 +166,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0022-generate-parentheses) |
+| [0044-wildcard-matching](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0053-maximum-subarray) |
 | [0063-unique-paths-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0064-minimum-path-sum) |
@@ -238,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0044-wildcard-matching) |
 | [0410-split-array-largest-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0455-assign-cookies) |
 ## Linked List
@@ -258,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0002-add-two-numbers) |
+| [0044-wildcard-matching](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0234-palindrome-linked-list) |
@@ -396,6 +399,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0022-generate-parentheses) |
+| [0044-wildcard-matching](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0115-distinct-subsequences) |
 | [0126-word-ladder-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0126-word-ladder-ii) |
