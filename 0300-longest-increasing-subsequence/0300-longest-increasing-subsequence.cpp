@@ -1,36 +1,29 @@
 class Solution {
-  
-      int lis(int i, int prev, vector<int>& nums, vector<vector<int>>& dp){
-//           It is increasing sequence so we'll start checking from start and base case is the end
-        if(i==nums.size()){
+public:
+    int LIS(int ind, int prev_ind, int n, vector<int>& nums, vector<vector<int>>& dp){
+        if(ind == n){
             return 0;
         }
-        if(dp[i][prev+1]!=-1){
-            return dp[i][prev+1];
+        if(dp[ind][prev_ind+1]!=-1){
+            return dp[ind][prev_ind+1];
         }
-        int notTake = lis(i+1,prev,nums,dp);
+
+        // two cases - 
+        // take
         int take = 0;
-        if(prev==-1 || nums[i]>nums[prev]){
-            take = 1 + lis(i+1,i,nums,dp);
+        // notTake
+        int notTake = 0;
+        // in case of take the arr[ind]>arr[prev_ind] || if it is the first time we are taking the element
+        if(prev_ind==-1 || nums[ind]>nums[prev_ind]){
+            take = 1 + LIS(ind+1,ind,n,nums,dp);
         }
-        return dp[i][prev+1] = max(take,notTake);
+        notTake = LIS(ind+1,prev_ind,n,nums,dp);
+        // take max of take and notTake
+        return dp[ind][prev_ind+1] = max(take,notTake);
     }
-    
-public:
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
-        vector<int>next(n+1,0), curr(n+1,0);
-        for(int i = n-1; i>=0; i--){
-            for(int prev = i-1; prev>=-1; prev--){
-                int notTake = next[prev+1];
-                int take = 0;
-                if(prev==-1 || nums[i]>nums[prev]){
-                    take = 1 + next[i+1];
-                }
-                curr[prev+1] = max(take,notTake);
-            }
-            next = curr;
-        }
-        return curr[0];
+        vector<vector<int>> dp(n,vector<int>(n+1,-1));
+        return LIS(0,-1,n,nums,dp);
     }
 };
