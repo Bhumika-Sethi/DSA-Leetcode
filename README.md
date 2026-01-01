@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0733-flood-fill](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0733-flood-fill) |
 | [0792-binary-search](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0792-binary-search) |
+| [0860-lemonade-change](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0860-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0931-minimum-falling-path-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [0940-fruit-into-baskets](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0940-fruit-into-baskets) |
@@ -270,6 +271,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0410-split-array-largest-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0455-assign-cookies) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0860-lemonade-change](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0860-lemonade-change) |
 ## Linked List
 |  |
 | ------- |
