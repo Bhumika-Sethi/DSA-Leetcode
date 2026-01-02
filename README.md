@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0048-rotate-image](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0054-spiral-matrix) |
+| [0055-jump-game](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0064-minimum-path-sum) |
@@ -184,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0022-generate-parentheses](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0070-climbing-stairs) |
@@ -268,6 +270,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0044-wildcard-matching) |
+| [0055-jump-game](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0410-split-array-largest-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0455-assign-cookies) |
