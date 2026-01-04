@@ -1,72 +1,96 @@
-class LRUCache {
     class Node{
-        public:
-            int val;
-            int key;
-            Node* next;
-            Node* prev;
-        
-            Node(int keyy, int value){
-                key = keyy;
-                val = value;
-            }
+     public:
+        int key;
+        int val;
+        Node* next;
+        Node* prev;
+        Node(){
+            prev = NULL;
+            next = NULL;
+        }
+        Node(int keyy, int value){
+            key = keyy;
+            val = value;
+            next = NULL;
+            prev = NULL;
+        }
     };
+class LRUCache {
 public:
-    Node* head = new Node(-1,-1);
-    Node* tail = new Node(-1,-1);
-    map<int,Node*> mp;
-    int cap = 0;
-    
-    
-    void addNode(Node* to_be_added){
-        Node* temp = head->next;
-        to_be_added->next = temp;
-        to_be_added->prev = head;
-        
-        head->next = to_be_added;
-        temp->prev = to_be_added;
-    }
-    
-    
-    void deleteNode(Node* to_be_deleted){
-        Node* prevNode = to_be_deleted->prev;
-        Node* nextNode = to_be_deleted->next;
-        prevNode->next = nextNode;
-        nextNode->prev = prevNode;
-    }
-    
+    Node* head;
+    Node* tail;
+    map<int,Node*> locator;
+    int cap;
+    int cnt = 0;
     LRUCache(int capacity) {
         cap = capacity;
+        head = new Node();
+        tail = new Node();
         head->next = tail;
+        head->prev = NULL;
         tail->prev = head;
+        tail->next = NULL;
     }
     
     int get(int key) {
-        if(mp.find(key)!=mp.end()){
-            Node* resNode = mp[key];
-            int res = resNode->val;
-            mp.erase(key);
-            deleteNode(resNode);
-            addNode(resNode);
-            mp[key] = head->next;
-            return res;
+        if(cap==0){
+            return -1;
         }
-        return -1;
+        if(locator.find(key)!=locator.end()){
+            Node* requiredNode = locator[key];
+            int value = requiredNode->val;
+            Node* previousNode = requiredNode->prev;
+            Node* nextNode = requiredNode->next;
+            previousNode->next = nextNode;
+            nextNode->prev = previousNode;
+            Node* newNext = head->next;
+            head->next = requiredNode;
+            requiredNode->prev = head;
+            requiredNode->next = newNext;
+            newNext->prev = requiredNode;
+            return value;
+        }
+        else{
+            return -1;
+        }
     }
     
     void put(int key, int value) {
-        if(mp.find(key)!=mp.end()){
-            Node* to_be_deleted = mp[key];
-            mp.erase(key);
-            deleteNode(to_be_deleted);
+        if(cap==0){
+            return;
         }
-        if(mp.size()==cap){
-            mp.erase(tail->prev->key);
-            deleteNode(tail->prev);
+        if(locator.find(key)!=locator.end()){
+            Node* requiredNode = locator[key];
+            requiredNode->val = value;
+            Node* previousNode = requiredNode->prev;
+            Node* nextNode = requiredNode->next;
+            previousNode->next = nextNode;
+            nextNode->prev = previousNode;
+            Node* newNext = head->next;
+            newNext->prev = requiredNode;
+            requiredNode->next = newNext;
+            requiredNode->prev = head;
+            head->next = requiredNode;
         }
-        Node* to_be_added = new Node(key,value);
-        addNode(to_be_added);
-        mp[key] = head->next;
+        else{
+            Node* newNode = new Node(key,value);
+            locator[key] = newNode;
+            Node* newNext = head->next;
+            newNode->next = newNext;
+            newNode->prev = head;
+            newNext->prev = newNode;
+            head->next = newNode;
+            cnt++;
+            if(cnt>cap){
+                Node* toBeRemoved = tail->prev;
+                Node* prevNode = toBeRemoved->prev;
+                prevNode->next = tail;
+                tail->prev = prevNode;
+                cnt--;
+                locator.erase(toBeRemoved->key);
+                delete toBeRemoved;
+            }
+        }
     }
 };
 
