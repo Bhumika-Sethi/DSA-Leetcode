@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0907-koko-eating-bananas](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0931-minimum-falling-path-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [0940-fruit-into-baskets](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0940-fruit-into-baskets) |
+| [0994-rotting-oranges](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1048-longest-string-chain](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1048-longest-string-chain) |
@@ -247,6 +248,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0542-01-matrix](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0733-flood-fill) |
 | [0931-minimum-falling-path-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0931-minimum-falling-path-sum) |
+| [0994-rotting-oranges](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -436,6 +438,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0801-is-graph-bipartite](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0820-find-eventual-safe-states) |
+| [0994-rotting-oranges](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0994-rotting-oranges) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1073-number-of-enclaves) |
