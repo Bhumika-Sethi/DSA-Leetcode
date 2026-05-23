@@ -45,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0213-house-robber-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0216-combination-sum-iii) |
 | [0229-majority-element-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0229-majority-element-ii) |
+| [0239-sliding-window-maximum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -452,6 +453,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0239-sliding-window-maximum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0239-sliding-window-maximum) |
 ## String
 |  |
 | ------- |
@@ -500,6 +502,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0239-sliding-window-maximum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1046-max-consecutive-ones-iii) |
@@ -531,6 +534,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0744-network-delay-time](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1753-path-with-minimum-effort](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1753-path-with-minimum-effort) |
@@ -549,4 +553,8 @@ Collection of LeetCode questions to ace the coding interview!
 | [0042-trapping-rain-water](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0503-next-greater-element-ii) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
