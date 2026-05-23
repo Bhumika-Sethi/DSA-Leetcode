@@ -1,51 +1,30 @@
+#include<bits/stdc++.h>
+
 class MinStack {
+    stack<pair<int,int>> st;
 public:
-    stack<long> st;
-    long mini;
     MinStack() {
-        mini = INT_MAX;
     }
     
     void push(int val) {
         if(st.empty()){
-            st.push(val);
-            mini = val;
-            return;
-        }
-        if(mini<val){
-            st.push(val);
+            st.push({val,val});
         }
         else{
-            long value = val;
-            st.push(2*value-mini);
-            mini = value;
+            st.push({val,min(st.top().second,val)});
         }
     }
     
     void pop() {
-        if(st.empty()){
-            return;
-        }
-        if(st.top()>mini){
-            st.pop();
-        }
-        else{
-            mini = 2*mini - st.top();
-            st.pop();
-        }
+        st.pop();
     }
     
     int top() {
-        if(st.top()>mini){
-            return st.top();
-        }
-        else{
-            return mini;
-        }
+        return st.top().first;
     }
     
     int getMin() {
-        return mini;
+        return st.top().second;
     }
 };
 
