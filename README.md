@@ -340,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0678-valid-parenthesis-string](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0735-asteroid-collision) |
 | [0901-online-stock-span](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0901-online-stock-span) |
+| [1249-minimum-remove-to-make-valid-parentheses](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 ## Tree
 |  |
 | ------- |
@@ -479,6 +480,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [1048-longest-string-chain](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1143-longest-common-subsequence) |
+| [1249-minimum-remove-to-make-valid-parentheses](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 ## Binary Search Tree
 |  |
