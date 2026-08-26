@@ -127,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0070-climbing-stairs](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0368-largest-divisible-subset) |
+| [0670-maximum-swap](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0670-maximum-swap) |
 | [2050-count-good-numbers](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/2050-count-good-numbers) |
 | [3227-find-missing-and-repeated-values](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Binary Search
@@ -306,6 +307,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0410-split-array-largest-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0455-assign-cookies) |
+| [0670-maximum-swap](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0670-maximum-swap) |
 | [0678-valid-parenthesis-string](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
