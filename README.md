@@ -127,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0070-climbing-stairs](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0368-largest-divisible-subset) |
+| [0415-add-strings](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0415-add-strings) |
 | [0670-maximum-swap](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0670-maximum-swap) |
 | [2050-count-good-numbers](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/2050-count-good-numbers) |
 | [3227-find-missing-and-repeated-values](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/3227-find-missing-and-repeated-values) |
@@ -268,6 +269,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0054-spiral-matrix) |
+| [0415-add-strings](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0415-add-strings) |
 | [0498-diagonal-traverse](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0498-diagonal-traverse) |
 | [0735-asteroid-collision](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0735-asteroid-collision) |
 ## Prefix Sum
@@ -487,6 +489,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0125-valid-palindrome](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0125-valid-palindrome) |
 | [0126-word-ladder-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0126-word-ladder-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0415-add-strings](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0415-add-strings) |
 | [0424-longest-repeating-character-replacement](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0516-longest-palindromic-subsequence](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0583-delete-operation-for-two-strings) |
