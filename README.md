@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0018-4sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
@@ -174,6 +175,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
@@ -303,6 +305,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0011-container-with-most-water) |
 | [0044-wildcard-matching](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0055-jump-game) |
