@@ -45,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0213-house-robber-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0216-combination-sum-iii) |
+| [0217-contains-duplicate](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0239-sliding-window-maximum) |
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0146-lru-cache](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0268-missing-number) |
 | [0424-longest-repeating-character-replacement](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0424-longest-repeating-character-replacement) |
@@ -164,6 +166,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0075-sort-colors](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0368-largest-divisible-subset) |
