@@ -1,45 +1,30 @@
 class Solution {
 public:
-    int minCoins(int ind, int amount, vector<int>& coins, vector<vector<int>>& dp){
+    int coinChange(int i, vector<int>& coins, int n, int amount,vector<vector<int>>& dp) {
         if(amount==0){
             return 0;
         }
-        if(ind<0){
-            return 100000000;
+        if(amount<0){
+            return 1e9;
         }
-        if(dp[ind][amount]!=-1){
-            return dp[ind][amount];
+        if(i==n){
+            return 1e9;
         }
-        int pick = 100000000;
-        if(amount-coins[ind]>=0){
-            pick = 1 + minCoins(ind,amount-coins[ind],coins,dp);
+        if(dp[i][amount]!=-1){
+            return dp[i][amount];
         }
-        int notPick = 0 + minCoins(ind-1,amount,coins,dp);
-        return dp[ind][amount] = min(pick,notPick);
+        int take =1e9;
+        if(amount>=coins[i]){
+            take = 1 + coinChange(i,coins,n,amount-coins[i],dp);
+        }
+        int notTake = coinChange(i+1,coins,n,amount,dp);
+        return dp[i][amount] = min(take,notTake);
     }
     int coinChange(vector<int>& coins, int amount) {
         int n = coins.size();
-        vector<vector<int>> dp(n+1,vector<int>(amount+1,0));
-        for(int sum = 0; sum<=amount; sum++){
-            dp[0][sum] = 100000000;
-        }
-        for(int ind = 1; ind<=n; ind++){
-            dp[ind][0] = 0;
-            for(int sum = 1; sum<=amount; sum++){
-                int pick = 100000000;
-                if(sum-coins[ind-1]>=0){
-                    pick = 1 + dp[ind][sum-coins[ind-1]];
-                }
-                int notPick = 0 + dp[ind-1][sum];
-                dp[ind][sum] = min(pick,notPick);
-            }
-        }
-        int ans = dp[n][amount];
-        if(ans>=100000000){
-            return -1;
-        }
-        else{
-            return ans;
-        }
+        vector<vector<int>> dp(n+1,vector<int>(amount+1,-1));
+        int res = coinChange(0,coins,coins.size(),amount,dp);
+        int ans = res>=1e9 ? -1: res; 
+        return ans;
     }
 };
