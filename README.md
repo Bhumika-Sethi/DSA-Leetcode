@@ -599,4 +599,12 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0901-online-stock-span](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0901-online-stock-span) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0322-coin-change) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
