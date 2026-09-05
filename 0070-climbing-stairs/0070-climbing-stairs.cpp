@@ -1,25 +1,22 @@
 class Solution {
 public:
-    int climbingStairs(int n, vector<int>& dp){
-        if(n==0){
-            return 1;
-        }
+    int climbStairsclimbStairs(int n, vector<int>& memo) {
         if(n==1){
             return 1;
         }
-        if(dp[n]!=-1){
-            return dp[n];
+        if(n==2){
+            return 2;
         }
-        return dp[n] = climbingStairs(n-1,dp) + climbingStairs(n-2,dp);
-    }
-    int climbStairs(int n) {
-        vector<int> dp(n+1,-1);
-        dp[0] = 1;
-        dp[1] = 1;
+        if(memo[n]!=-1){
+            return memo[n];
+        }
+        return memo[n] = climbStairsclimbStairs(n-1,memo) + climbStairsclimbStairs(n-2,memo);
 
-        for(int i = 2; i<=n; i++){
-            dp[i] = dp[i-1] + dp[i-2];
-        }
-        return dp[n];
+    }
+
+    int climbStairs(int n){
+        vector<int> memo(n+1,-1);
+
+        return climbStairsclimbStairs(n,memo);
     }
 };
