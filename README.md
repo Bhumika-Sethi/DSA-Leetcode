@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0128-longest-consecutive-sequence](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0130-surrounded-regions) |
 | [0135-candy](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0136-single-number) |
@@ -111,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0073-set-matrix-zeroes](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0126-word-ladder-ii](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0126-word-ladder-ii) |
+| [0128-longest-consecutive-sequence](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0141-linked-list-cycle) |
@@ -659,5 +661,6 @@ Collection of LeetCode questions to ace the coding interview!
 ## Union-Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
