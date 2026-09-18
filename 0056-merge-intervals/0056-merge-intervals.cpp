@@ -1,23 +1,21 @@
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
+        vector<vector<int>> ans;
         int n = intervals.size();
-       sort(intervals.begin(), intervals.end());
-       vector<vector<int>> ans;
-       vector<int> currentInterval = intervals[0]; 
+        sort(intervals.begin(),intervals.end());
+        ans.push_back({intervals[0][0],intervals[0][1]});
 
-       for(int i = 0; i<n; i++){
-        // Overlapping - if start time is falling under curent Interval then just take the max of end time and merge it
-        if(intervals[i][0]<=currentInterval[1]){
-            currentInterval[1] = max(intervals[i][1],currentInterval[1]);
+
+        for(int i = 1; i<n; i++){
+            if(ans.back()[1]>=intervals[i][0]){
+                ans.back()[1] = max(ans.back()[1],intervals[i][1]);
+                ans.back()[0] = min(ans.back()[0],intervals[i][0]);
+            }
+            else{
+                ans.push_back(intervals[i]);
+            }
         }
-        // non-overlapping means, just put it in answer array and then pick the interval as currentInterval
-        else{
-            ans.push_back(currentInterval);
-            currentInterval = intervals[i];
-        }
-       }
-       ans.push_back(currentInterval);
-       return ans;
+        return ans;
     }
 };
