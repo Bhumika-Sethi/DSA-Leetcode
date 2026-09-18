@@ -668,4 +668,8 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0200-number-of-islands) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/Bhumika-Sethi/DSA-Leetcode/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
